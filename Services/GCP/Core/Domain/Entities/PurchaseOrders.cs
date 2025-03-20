@@ -41,6 +41,8 @@ namespace Domain.Entities
 
         public List<ExpenseReport> ExpenseReports { get; set; } = new List<ExpenseReport>();
 
+        public List<GoodsReceipt> GoodsReceipts { get; set; } = new List<GoodsReceipt>();
+
         public Supplier Supplier { get; set; }
 
     }

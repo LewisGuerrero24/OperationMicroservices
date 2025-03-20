@@ -43,7 +43,6 @@ namespace Infrastructure.Migrations
                     Address = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     PaymentTerms = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     BankDetails = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Active = table.Column<bool>(type: "bit", nullable: false),
                     CreationDate = table.Column<DateTime>(type: "datetime2", nullable: true),
                     IsActive = table.Column<bool>(type: "bit", nullable: false),
                     ModificationDate = table.Column<DateTime>(type: "datetime2", nullable: true)

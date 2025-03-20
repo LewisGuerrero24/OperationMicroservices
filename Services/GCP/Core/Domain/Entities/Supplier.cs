@@ -23,8 +23,6 @@ namespace Domain.Entities
 
         public string BankDetails { get; set; } // Detalles de la cuenta bancaria
 
-        public bool Active { get; set; } // Activo o inactivo
-
         public DateTime? CreationDate { get; set; } 
 
         public bool IsActive { get; set; } // Activo o inactivo
@@ -34,5 +32,7 @@ namespace Domain.Entities
         public List<Invoice> Invoices { get; set; } = new List<Invoice>();
 
         public List<Contract> Contracts { get; set; } = new List<Contract>();
+
+        public List<PurchaseOrder> PurchaseOrders { get; set; } = new List<PurchaseOrder>();
     }
 }

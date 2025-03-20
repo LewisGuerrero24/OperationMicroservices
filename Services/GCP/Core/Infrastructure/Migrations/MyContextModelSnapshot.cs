@@ -501,9 +501,6 @@ namespace Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SupplierID"));
 
-                    b.Property<bool>("Active")
-                        .HasColumnType("bit");
-
                     b.Property<string>("Address")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -623,7 +620,7 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Entities.GoodsReceipt", b =>
                 {
                     b.HasOne("Domain.Entities.PurchaseOrder", "PurchaseOrder")
-                        .WithMany()
+                        .WithMany("GoodsReceipts")
                         .HasForeignKey("PurchaseOrderID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -664,7 +661,7 @@ namespace Infrastructure.Migrations
             modelBuilder.Entity("Domain.Entities.PurchaseOrder", b =>
                 {
                     b.HasOne("Domain.Entities.Supplier", "Supplier")
-                        .WithMany()
+                        .WithMany("PurchaseOrders")
                         .HasForeignKey("SupplierID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -727,6 +724,8 @@ namespace Infrastructure.Migrations
                 {
                     b.Navigation("ExpenseReports");
 
+                    b.Navigation("GoodsReceipts");
+
                     b.Navigation("Invoices");
 
                     b.Navigation("PurchaseOrderDetails");
@@ -746,6 +745,8 @@ namespace Infrastructure.Migrations
                     b.Navigation("Contracts");
 
                     b.Navigation("Invoices");
+
+                    b.Navigation("PurchaseOrders");
                 });
 #pragma warning restore 612, 618
         }
