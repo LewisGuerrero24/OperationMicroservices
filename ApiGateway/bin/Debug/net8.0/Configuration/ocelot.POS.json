@@ -1,0 +1,22 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Prueba/list",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5239
+                }
+            ],
+            "UpstreamPathTemplate": "/Prueba/List",
+            "UpstreamHttpMethod": [
+                "Get"
+            ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Auth0", 
+                "AllowedScopes": [] 
+        }
+    }
+    ]
+}

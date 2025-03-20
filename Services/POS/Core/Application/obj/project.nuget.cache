@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "/rD7XJ66k1vV+W+eZdUCtpsZ/oAxDF8noQ4oaSzbF7jU8vHIQJ/5ZG9NIlrUzXfnJ2ZZr7CmWcN7BqVvg6Hxew==",
+  "success": true,
+  "projectFilePath": "/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.diagnostics.abstractions/8.0.0/microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.hosting.abstractions/8.0.0/microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/nlog/5.3.4/nlog.5.3.4.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/nlog.extensions.hosting/5.3.15/nlog.extensions.hosting.5.3.15.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/nlog.extensions.logging/5.3.15/nlog.extensions.logging.5.3.15.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

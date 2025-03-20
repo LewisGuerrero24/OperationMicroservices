@@ -1,0 +1,48 @@
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/bin/Debug/net8.0/Application.deps.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/bin/Debug/net8.0/Application.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/bin/Debug/net8.0/Application.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/bin/Debug/net8.0/Domain.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/bin/Debug/net8.0/Domain.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.sourcelink.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/refint/Application.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/Application.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/POS/Core/Application/obj/Debug/net8.0/ref/Application.dll
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.sourcelink.json
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.dll
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/refint/Application.dll
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.pdb
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Application.deps.json
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Application.dll
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Application.pdb
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Domain.dll
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Domain.pdb
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Applicat.44B5EDA2.Up2Date
+/home/lewisaramismanzanoguerrero/Documentos/SCOPE/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/ref/Application.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Application.deps.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Application.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Application.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Domain.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/bin/Debug/net8.0/Domain.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.AssemblyReference.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.sourcelink.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.csproj.CopyComplete
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/refint/Application.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/Application.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/POS/Core/Application/obj/Debug/net8.0/ref/Application.dll

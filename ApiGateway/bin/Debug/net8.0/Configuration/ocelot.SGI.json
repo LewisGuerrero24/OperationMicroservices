@@ -1,0 +1,16 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/customers",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 4046
+                }
+            ],
+            "UpstreamPathTemplate": "/customerssgi/data",
+            "UpstreamHttpMethod": [ "Get" ]
+        }
+    ]
+}

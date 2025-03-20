@@ -1,0 +1,36 @@
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Domain/obj/Debug/net8.0/ref/Domain.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.deps.json
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.pdb
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/refint/Domain.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.pdb
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Domain/obj/Debug/net8.0/ref/Domain.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.deps.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/bin/Debug/net8.0/Domain.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/refint/Domain.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/Domain.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Domain/obj/Debug/net8.0/ref/Domain.dll

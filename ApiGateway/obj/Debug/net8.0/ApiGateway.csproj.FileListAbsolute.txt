@@ -1,0 +1,126 @@
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.csproj.AssemblyReference.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.AssemblyInfoInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.AssemblyInfo.cs
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.csproj.CoreCompileInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.sourcelink.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/appsettings.Development.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/appsettings.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Configuration/ocelot.GCP.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Configuration/ocelot.global.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Configuration/ocelot.POS.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Configuration/ocelot.SECURITY.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Configuration/ocelot.SGI.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/ocelot.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/ApiGateway
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/ApiGateway.deps.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/ApiGateway.runtimeconfig.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/ApiGateway.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/ApiGateway.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/FluentValidation.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/IPAddressRange.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.AspNetCore.JsonPatch.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.AspNetCore.MiddlewareAnalysis.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.Extensions.DiagnosticAdapter.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Newtonsoft.Json.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Ocelot.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets.build.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets.development.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets/msbuild.ApiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets/msbuild.build.ApiGateway.props
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ApiGateway.props
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ApiGateway.props
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/staticwebassets.pack.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/scopedcss/bundle/ApiGateway.styles.css
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.csproj.Up2Date
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/refint/ApiGateway.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ApiGateway.genruntimeconfig.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/obj/Debug/net8.0/ref/ApiGateway.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Microsoft.Bcl.TimeProvider.dll
+<<<<<<< HEAD
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\appsettings.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.GCP.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.global.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.POS.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.SECURITY.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.SGI.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.SGV.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Configuration\ocelot.GRAF.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\ocelot.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\ApiGateway.exe
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\ApiGateway.deps.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\ApiGateway.runtimeconfig.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\ApiGateway.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\ApiGateway.pdb
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\IPAddressRange.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Ocelot.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.csproj.AssemblyReference.cache
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.AssemblyInfoInputs.cache
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.AssemblyInfo.cs
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.csproj.CoreCompileInputs.cache
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.sourcelink.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.ApiGateway.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.build.ApiGateway.props
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ApiGateway.props
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ApiGateway.props
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\scopedcss\bundle\ApiGateway.styles.css
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.csproj.Up2Date
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\refint\ApiGateway.dll
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.pdb
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ApiGateway.genruntimeconfig.cache
+C:\Users\MAICOL\Proyect-Microservices-System-Control-and-Operations-Process-Event\ApiGateway\obj\Debug\net8.0\ref\ApiGateway.dll
+=======
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/ApiGateway/bin/Debug/net8.0/Configuration/ocelot.SFF.json
+>>>>>>> cff63d9dee7f91af6b38b8ade099a1e0b22b5544

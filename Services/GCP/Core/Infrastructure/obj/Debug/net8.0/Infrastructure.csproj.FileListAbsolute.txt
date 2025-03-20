@@ -1,0 +1,58 @@
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Domain.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Domain.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastr.15EFFBFE.Up2Date
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.genruntimeconfig.cache
+/home/lewisguerrero/Documentos/Proyectos Personales/SCOPE/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Application.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Domain.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Domain.pdb
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Application.pdb
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastr.15EFFBFE.Up2Date
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.genruntimeconfig.cache
+C:/Users/MAICOL/Proyect-Microservices-System-Control-and-Operations-Process-Event/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.AssemblyReference.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfoInputs.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.AssemblyInfo.cs
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CoreCompileInputs.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.sourcelink.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/refint/Infrastructure.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.deps.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.runtimeconfig.json
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Infrastructure.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Application.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Domain.dll
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Domain.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/bin/Debug/net8.0/Application.pdb
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.csproj.CopyComplete
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/Infrastructure.genruntimeconfig.cache
+/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/GCP/Core/Infrastructure/obj/Debug/net8.0/ref/Infrastructure.dll

@@ -1,0 +1,18 @@
+#comando para bajar kafka 
+docker pull apache/kafka
+
+#Entrar consola de docker
+docker exec --workdir /opt/kafka/bin/ -it broker sh
+
+#Crear un topico 
+bin/kafka-topics.sh --create --topic name-topic 
+--bootstrap-server localhost:9092
+
+#Listar topicos 
+bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+
+#ejecutar zokeeper 
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+#Crear tar con nuevos modificaciones
+

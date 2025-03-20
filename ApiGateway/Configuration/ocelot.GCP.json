@@ -1,0 +1,18 @@
+{
+    "Routes": [
+        {
+            "DownstreamPathTemplate": "/api/Prueba/list",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5269
+                }
+            ],
+            "UpstreamPathTemplate": "/Pruebagcp/List",
+            "UpstreamHttpMethod": [
+                "Get"
+            ]
+        }
+    ]
+}
