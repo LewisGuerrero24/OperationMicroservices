@@ -3,9 +3,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProductsService } from './products.service';
 import { ProductsController } from './products.controller';
 import { Product } from './entities/product.entity';
+import { Category } from 'src/category/entities/category.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Product])], // Registra el repositorio en el módulo
+  imports: [TypeOrmModule.forFeature([Product, Category])], // Registra el repositorio en el módulo
   providers: [ProductsService],
   controllers: [ProductsController],
   exports: [ProductsService], // Exporta si se usa en otro módulo

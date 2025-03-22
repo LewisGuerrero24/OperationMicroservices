@@ -7,8 +7,8 @@ export class UpdateProductDto extends PartialType(CreateProductDto) {
             @ApiProperty({ example: 'nombreProducto', description: 'Nombre', required: true })
             nombre_producto: string;
           
-            @ApiProperty({ example: Category, description: 'Categoria', required: true })
-            categoria: Category;
+            @ApiProperty({ example: 0, description: 'Categoria', required: true })
+            categoria: number;
           
             @ApiProperty({ example: 0.0,description: 'Precio', required: true })
             precio_unitario: number;
@@ -17,7 +17,7 @@ export class UpdateProductDto extends PartialType(CreateProductDto) {
             stock: number;
           
             @ApiProperty({ example: 'codigo_producto',description: 'Codigo_Producto', required: true })
-            codigo_identificacion: number;
+            codigo_identificacion: string;
           
             @ApiProperty({ example: 'Estado_Producto',description: 'Estado', required: true })
             status: string;

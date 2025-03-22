@@ -5,6 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Product } from './entities/product.entity';
 import { Repository } from 'typeorm';
 import { error } from 'console';
+import { Category } from 'src/category/entities/category.entity';
 
 @Injectable()
 export class ProductsService {
@@ -12,10 +13,29 @@ export class ProductsService {
   constructor(
     @InjectRepository(Product) // Asegura la inyección correcta
     private readonly productRepository: Repository<Product>,
+
+    @InjectRepository(Category)
+    private categoryRepository: Repository<Category>,
   ) {}
 
   async create(createProductDto: CreateProductDto):Promise<Product> {
-    const newProduct = this.productRepository.create(createProductDto);
+
+    const category = await this.categoryRepository.findOne({
+      where: { id_categoria: createProductDto.categoria },
+    });
+
+    if (!category) {
+      throw new Error('Categoría no encontrada');
+    }
+
+    const newProduct = this.productRepository.create({
+      nombre_producto: createProductDto.nombre_producto,
+      categoria: category, // Asignar el objeto de categoría encontrado
+      precio_unitario: createProductDto.precio_unitario,
+      stock: createProductDto.stock,
+      codigo_identificacion: createProductDto.codigo_identificacion,
+      status: createProductDto.status,
+    });
     return await this.productRepository.save(newProduct);
   }
 
@@ -32,7 +52,24 @@ export class ProductsService {
   }
 
   async update(id: number, updateProductDto: UpdateProductDto) {
-    await this.productRepository.update(id,updateProductDto);
+
+    const category = await this.categoryRepository.findOne({
+      where: { id_categoria: updateProductDto.categoria },
+    });
+
+    if (!category) {
+      throw new Error('Categoría no encontrada');
+    }
+
+    const updateProduct = this.productRepository.create({
+      nombre_producto: updateProductDto.nombre_producto,
+      categoria: category, // Asignar el objeto de categoría encontrado
+      precio_unitario: updateProductDto.precio_unitario,
+      stock: updateProductDto.stock,
+      codigo_identificacion: updateProductDto.codigo_identificacion,
+      status: updateProductDto.status,
+    });
+    await this.productRepository.update(id,updateProduct);
     return this.findOne(id);
   }
 

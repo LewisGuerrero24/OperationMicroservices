@@ -20,7 +20,7 @@ export class Product {
     stock: number;
   
     @Column()
-    codigo_identificacion: number;
+    codigo_identificacion: string;
   
     @Column()
     status: string;

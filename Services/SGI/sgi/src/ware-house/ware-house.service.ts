@@ -4,6 +4,9 @@ import { UpdateWareHouseDto } from './dto/update-ware-house.dto';
 
 @Injectable()
 export class WareHouseService {
+
+
+  
   create(createWareHouseDto: CreateWareHouseDto) {
     return 'This action adds a new wareHouse';
   }

@@ -38,7 +38,7 @@ import { InventoryMovement } from './inventory-movement/entities/inventory-movem
         },
       },
     }),
-    TypeOrmModule.forFeature([Category,Product]), // Registrar la entidad en el módulo principal
+    TypeOrmModule.forFeature([Category,Product,Inventory, WareHouse]), // Registrar la entidad en el módulo principal
     CategoryModule, ProductsModule, WareHouseModule, InventoryModule, InventoryMovementModule,
   ],
   controllers: [CategoryController, InventoryController, InventoryMovementController, WareHouseController],
