@@ -24,7 +24,7 @@ import { InventoryMovement } from './inventory-movement/entities/inventory-movem
   imports: [
     TypeOrmModule.forRoot({
       type: 'mssql', // Tipo de base de datos
-      host: 'localhost', // Servidor SQL
+      host: '172.17.0.2', // Servidor SQL
       port: 1433, // Puerto por defecto de SQL Server
       username: 'sa',
       password: 'Aramis21',
@@ -38,10 +38,10 @@ import { InventoryMovement } from './inventory-movement/entities/inventory-movem
         },
       },
     }),
-    TypeOrmModule.forFeature([Category,Product,Inventory, WareHouse]), // Registrar la entidad en el módulo principal
+    TypeOrmModule.forFeature([Category,Product,Inventory, WareHouse,InventoryMovement]), // Registrar la entidad en el módulo principal
     CategoryModule, ProductsModule, WareHouseModule, InventoryModule, InventoryMovementModule,
   ],
-  controllers: [CategoryController, InventoryController, InventoryMovementController, WareHouseController],
-  providers: [CategoryService, ProductsService, InventoryMovementService, InventoryService, WareHouseService],
+  controllers: [CategoryController, InventoryController, InventoryMovementController, WareHouseController, InventoryMovementController],
+  providers: [CategoryService, ProductsService, InventoryMovementService, InventoryService, WareHouseService, InventoryMovementService],
 })
 export class AppModule {}

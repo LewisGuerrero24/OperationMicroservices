@@ -17,7 +17,7 @@ export class InventoryService {
       @InjectRepository(Inventory) // Asegura la inyección correcta
       private readonly inventoryRepository: Repository<Inventory>,
 
-      @InjectRepository(Inventory) // Asegura la inyección correcta
+      @InjectRepository(Product) // Asegura la inyección correcta
       private readonly productRepository: Repository<Product>,
 
       @InjectRepository(WareHouse) // Asegura la inyección correcta

@@ -2,7 +2,9 @@ import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/commo
 import { InventoryMovementService } from './inventory-movement.service';
 import { CreateInventoryMovementDto } from './dto/create-inventory-movement.dto';
 import { UpdateInventoryMovementDto } from './dto/update-inventory-movement.dto';
+import { ApiTags } from '@nestjs/swagger';
 
+@ApiTags('inventory-movement')
 @Controller('inventory-movement')
 export class InventoryMovementController {
   constructor(private readonly inventoryMovementService: InventoryMovementService) {}

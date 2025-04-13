@@ -1,15 +1,16 @@
+import { ApiProperty } from "@nestjs/swagger";
 import { Column } from "typeorm";
 
 export class CreateWareHouseDto {
-        @Column()
+        @ApiProperty({ example: 'nombreAlmacen', description: 'Nombre', required: true })
         nombre_almacen: string;
       
-        @Column()
+        @ApiProperty({example:'ciudad',description:'ubicacion', required:true})
         ciudad: string;
       
-        @Column()
+        @ApiProperty({example:'direccion',description:'direccion', required:true})
         direccion: string;
       
-        @Column()
+        @ApiProperty({example:'telefono', description:'numero de telefono', required:true })
         telefono: string;
 }

@@ -1,6 +1,6 @@
 import { Product } from "src/products/entities/product.entity";
 import { WareHouse } from "src/ware-house/entities/ware-house.entity";
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity()
 export class InventoryMovement {
@@ -19,7 +19,7 @@ export class InventoryMovement {
   @Column()
   cantidad: number;
 
-  @Column({ type: 'date' })
+  @Column({ type: 'timestamp' })
   fecha_movimiento: Date;
 
   @Column()
