@@ -4,7 +4,7 @@ from Infrastructure.ModelsBD.UserModelBd import UserModelBd
 class UserMapper:
     @staticmethod
     def to_domain(user_model: UserModelBd) -> User:
-        return User(name=user_model.name, edad= user_model.edad)
+        return User(nombre=user_model.name, edad= user_model.edad)
 
     @staticmethod
     def to_model(user: User) -> UserModelBd:

@@ -4,6 +4,7 @@ from rest_framework import status
 from .Serializer.UserSerializer import UserSerializer
 from Domain.Models.User import User
 from Application.Services.UserService import UserService
+from Infrastructure.Adapters.UserRepositoryI import UserRepositoryI
 
 
 class CreateUserView(APIView):
@@ -12,10 +13,12 @@ class CreateUserView(APIView):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():
             user_data = serializer.validated_data
-            user = UserService.ViewInformation(user_data)
+            repositoryImple =  UserRepositoryI()
+            userService =  UserService(repositoryImple)
+            user = userService.ViewInformation(user_data)
             # Retornar el objeto de dominio como respuesta
+            #print(""+user.nombre)
             return Response({
-                "id": user.id,
-                "name": user.name
+                "Se imprimio"
             }, status=status.HTTP_201_CREATED)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

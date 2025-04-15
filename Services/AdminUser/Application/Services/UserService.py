@@ -1,6 +1,7 @@
 from ..UseCases.UserUseCase  import UserUseCase
 from Domain.Ports.userRepository import UserRepository
 from Domain.Models.User import User
+from Infrastructure.Mappers.UserMapper import UserMapper
 
 class UserService(UserUseCase):
 
@@ -8,12 +9,14 @@ class UserService(UserUseCase):
         super().__init__()
         self._userRepository = userRepository
 
-    @staticmethod
-    def ViewInformation(self, UserData) -> User:
+    def ViewInformation(self,UserData) -> User:
         # Aquí va la lógica concret
          UserD = User(
-            id=UserData["id"],
-            name=UserData["name"],
+            
+            nombre=UserData["name"],
+            edad=UserData["edad"],
         )
-         return UserRepository.Print_Information(UserD)
+       
+         data =  self._userRepository.Print_Information(UserD)
+         print(""+data.nombre)
  
