@@ -1,2 +1,0 @@
-from .ModelsBD.UserModelBd import *
-

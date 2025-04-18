@@ -1,0 +1,18 @@
+from django.db import models
+from Spaces import Spaces
+
+class System_users(models.Model):
+    id = models.UUIDField(primary_key=True, editable=False)
+    spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)
+    full_name = models.CharField(max_length=200)
+    username = models.CharField(max_length=100, unique=True)
+    email = models.CharField(unique=True)
+    password = models.CharField(max_length=256)
+    is_superuser = models.BooleanField(default=False)
+    last_login = models.DateTimeField(null=True)
+    status = models.BooleanField(default=True)
+    creation_date = models.DateTimeField(auto_now_add=True, null=True)
+    update_date = models.DateTimeField(auto_now=True, null=True)
+
+    def __str__(self):
+        return self.username

@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'AdminUser.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'Prueba',
+        'NAME': 'AdminUser',
         'USER': 'sa',
-        'PASSWORD': 'Aramis21',
+        'PASSWORD': 'M@icol_015*',
         'HOST': 'localhost',
         'PORT': '1433',
         'OPTIONS': {
