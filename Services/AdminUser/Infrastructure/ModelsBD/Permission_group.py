@@ -1,7 +1,7 @@
 from django.db import models
 from .Groups import Groups
 from .Permission_level import Permission_level
-from Permit import Permit
+from .Permit import Permit
 
 class Permission_group(models.Model):
     group = models.ForeignKey(Groups, on_delete=models.PROTECT)
@@ -10,3 +10,6 @@ class Permission_group(models.Model):
     status = models.BooleanField(default=True)
     creation_date = models.DateTimeField(auto_now_add=True, null=True)
     update_date = models.DateTimeField(auto_now=True, null=True)
+
+    class Meta:
+        db_table = 'Permission_group'

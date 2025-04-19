@@ -1,5 +1,5 @@
 from django.db import models
-from Company import Company
+from .Company import Company
 
 class Spaces(models.Model):
     company = models.ForeignKey(Company, on_delete=models.PROTECT)
@@ -12,3 +12,6 @@ class Spaces(models.Model):
 
     def __str__(self):
         return self.name
+    
+    class Meta:
+        db_table = 'Spaces'

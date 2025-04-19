@@ -1,5 +1,5 @@
 from django.db import models
-from Spaces import Spaces
+from .Spaces import Spaces
 
 class Groups(models.Model):
     spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)
@@ -12,3 +12,6 @@ class Groups(models.Model):
 
     def __str__(self):
         return self.name
+    
+    class Meta:
+        db_table = 'Groups'

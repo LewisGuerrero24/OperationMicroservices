@@ -1,6 +1,6 @@
 from django.db import models
-from Spaces import Spaces
-from Module import Module
+from .Spaces import Spaces
+from .Module import Module
 
 class Permit(models.Model):
     spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)
@@ -13,4 +13,7 @@ class Permit(models.Model):
     status = models.BooleanField(default=True)
     creation_date = models.DateTimeField(auto_now_add=True, null=True)
     update_date = models.DateTimeField(auto_now=True, null=True)
+
+    class Meta:
+        db_table = 'Permit'
 

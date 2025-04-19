@@ -1,0 +1,18 @@
+from datetime import datetime
+from typing import Optional
+from Domain.Models import Spaces
+
+
+class Groups:
+    def __init__(
+        self, spaces: Spaces, code: str, name: str, description: str,
+        status: bool = True, creation_date: Optional[datetime] = None,
+        update_date: Optional[datetime] = None
+    ):
+        self.spaces = spaces
+        self.code = code
+        self.name = name
+        self.description = description
+        self.status = status
+        self.creation_date = creation_date
+        self.update_date = update_date

@@ -10,3 +10,6 @@ class Permission_level(models.Model):
 
     def __str__(self):
         return self.name
+    
+    class Meta:
+        db_table = 'Permission_level'
