@@ -1,6 +1,6 @@
 from django.db import models
-from Spaces import Spaces
-from Module import Module
+from .Spaces import Spaces
+from .Module import Module
 
 class Permit(models.Model):
     spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)

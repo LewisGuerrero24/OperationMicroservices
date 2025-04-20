@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'mssql',
         'NAME': 'AdminUser',
         'USER': 'sa',
-        'PASSWORD': 'M@icol_015*',
+        'PASSWORD': 'Aramis21',
         'HOST': 'localhost',
         'PORT': '1433',
         'OPTIONS': {

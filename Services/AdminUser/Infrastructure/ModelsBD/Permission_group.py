@@ -1,7 +1,7 @@
 from django.db import models
 from .Groups import Groups
 from .Permission_level import Permission_level
-from Permit import Permit
+from .Permit import Permit
 
 class Permission_group(models.Model):
     group = models.ForeignKey(Groups, on_delete=models.PROTECT)

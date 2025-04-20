@@ -17,6 +17,7 @@ class Company(models.Model):
     status = models.BooleanField(default=True)
     creation_date = models.DateTimeField(auto_now_add=True, null=True)
     update_date = models.DateTimeField(auto_now=True, null=True)
+    
 
     def __str__(self):
         return self.name

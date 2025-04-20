@@ -1,7 +1,7 @@
 from django.db import models
 from .System_users import System_users
 from .Permission_level import Permission_level
-from Permit import Permit
+from .Permit import Permit
 
 class Permission_user(models.Model):
     system_user = models.ForeignKey(System_users, on_delete=models.PROTECT)
