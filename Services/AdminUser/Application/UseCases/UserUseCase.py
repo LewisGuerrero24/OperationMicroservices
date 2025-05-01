@@ -1,11 +1,11 @@
-from Domain.Models.User import User
-from abc import ABC, abstractmethod
+# from Domain.Models.User import User
+# from abc import ABC, abstractmethod
 
-class UserUseCase(ABC):
+# class UserUseCase(ABC):
 
-    @abstractmethod
-    def ViewInformation(self,UserData)-> User:
-        pass
+#     @abstractmethod
+#     def ViewInformation(self,UserData)-> User:
+#         pass
 
-    class Meta:
-        abstract = True 
+#     class Meta:
+#         abstract = True 

@@ -1,11 +1,15 @@
-# from rest_framework.views import APIView
-# from rest_framework.response import Response
-# from rest_framework import status
-# from .Serializer.UserSerializer import UserSerializer
-# from Domain.Models.User import User
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+from .Serializer.UserSerializer import UserSerializer
+#from Domain.Models.User import User
 # from Application.Services.UserService import UserService
 # from Infrastructure.Adapters.UserRepositoryI import UserRepositoryI
 
+
+class TestRateLimitView(APIView):
+    def get(self, request):
+        return Response({"message": "Este endpoint es para probar Rate Limit."})
 
 # class CreateUserView(APIView):
 

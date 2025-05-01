@@ -1,11 +1,11 @@
-from ..Models.User import User
-from abc import ABC, abstractmethod
+# from ..Models.User import User
+# from abc import ABC, abstractmethod
 
-class UserRepository(ABC):
+# class UserRepository(ABC):
 
-    @abstractmethod
-    def Print_Information(self,UserData)-> User:
-        pass
+#     @abstractmethod
+#     def Print_Information(self,UserData)-> User:
+#         pass
 
-    class Meta:
-        abstract = True 
+#     class Meta:
+#         abstract = True 

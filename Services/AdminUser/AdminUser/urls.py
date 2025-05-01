@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path
 #from API.views import CreateUserView
 from django.http import HttpResponse
+from API.views import TestRateLimitView
 
 def home_view(request):
     return HttpResponse("Página de inicio")
@@ -25,5 +26,6 @@ def home_view(request):
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('usuarios/', CreateUserView.as_view(), name='crear_usuario'),
+    path('test-rate-limit/', TestRateLimitView.as_view(), name='test_rate_limit'),
     path('', home_view),
 ]
