@@ -1,22 +1,26 @@
-# from ..UseCases.UserUseCase  import UserUseCase
-# from Domain.Ports.userRepository import UserRepository
-# from Domain.Models.User import User
-# from Infrastructure.Mappers.UserMapper import UserMapper
+from Application.UseCases.UserUseCase import UserUseCase
+from Domain.Ports.SystemUserRepository import SystemUserRepository
+from Domain.Models.System_User import SystemUsers
 
-# class UserService(UserUseCase):
 
-#     def __init__(self, userRepository : UserRepository):
-#         super().__init__()
-#         self._userRepository = userRepository
+class UserService(UserUseCase):
+    def __init__(self, userRepository: SystemUserRepository):
+        self._userRepository = userRepository
 
-#     def ViewInformation(self,UserData) -> User:
-#         # Aquí va la lógica concret
-#          UserD = User(
-            
-#             nombre=UserData["name"],
-#             edad=UserData["edad"],
-#         )
-       
-#          data =  self._userRepository.Print_Information(UserD)
-#          print(""+data.nombre)
- 
+    def create(self, SystemUsers_data: dict) -> SystemUsers:
+        return self._userRepository.create(SystemUsers_data)
+
+    def get(self, SystemUsers_id: int) -> SystemUsers:
+        return self._userRepository.get(SystemUsers_id)
+
+    def update(self, SystemUsers_id: int, SystemUsers_data: dict) -> SystemUsers:
+        return self._userRepository.update(SystemUsers_id, SystemUsers_data)
+
+    def delete(self, SystemUsers_id: int) -> bool:
+        return self._userRepository.delete(SystemUsers_id)
+
+    def list_all(self) -> list[SystemUsers]:
+        return self._userRepository.list_all()
+
+    def print_information(self, SystemUsers_data: dict) -> SystemUsers:
+        return self._userRepository.print_information(SystemUsers_data)

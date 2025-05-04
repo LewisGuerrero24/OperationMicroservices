@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'Application',        # si necesitas que esté
     'Domain', 
     'rest_framework',
-    'API'
+    'API',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +81,7 @@ WSGI_APPLICATION = 'AdminUser.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'mssql',
-        'NAME': 'AdminUser',
+        'NAME': 'UserT',
         'USER': 'sa',
         'PASSWORD': 'Aramis21',
         'HOST': 'localhost',

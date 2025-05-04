@@ -1,5 +1,14 @@
 from rest_framework import serializers
 
 class UserSerializer(serializers.Serializer):
-    name = serializers.CharField(max_length=100)
-    edad = serializers.CharField(max_length=4)
+    id = serializers.UUIDField(required=False)
+    spaces = serializers.UUIDField()
+    full_name = serializers.CharField(max_length=200)
+    username = serializers.CharField(max_length=100)
+    email = serializers.EmailField(max_length=100)
+    password = serializers.CharField(max_length=256, write_only=True)
+    is_superuser = serializers.BooleanField(default=False)
+    last_login = serializers.DateTimeField(required=False)
+    status = serializers.BooleanField(default=True)
+    creation_date = serializers.DateTimeField(required=False)
+    update_date = serializers.DateTimeField(required=False)

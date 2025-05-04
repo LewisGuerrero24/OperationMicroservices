@@ -1,11 +1,16 @@
 asgiref==3.8.1
 Django==5.0.14
 djangorestframework==3.16.0
+drf-yasg==1.21.10
 greenlet==3.2.0
+inflection==0.5.1
 mssql==1.0.1
 mssql-django==1.5
+packaging==25.0
 pyodbc==5.2.0
 pytz==2025.2
+PyYAML==6.0.2
 SQLAlchemy==2.0.40
 sqlparse==0.5.3
 typing_extensions==4.13.2
+uritemplate==4.1.1
