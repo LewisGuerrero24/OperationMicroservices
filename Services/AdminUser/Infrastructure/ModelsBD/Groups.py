@@ -3,7 +3,7 @@ from .Spaces import Spaces
 
 class Groups(models.Model):
     spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)
-    code = models.CharField(max_length=50, unique=True)
+    code = models.CharField(max_length=50)
     name = models.CharField(max_length=200)
     description = models.CharField(max_length=200)
     status = models.BooleanField(default=True)

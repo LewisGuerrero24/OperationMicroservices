@@ -3,7 +3,7 @@ from .Company import Company
 
 class Spaces(models.Model):
     company = models.ForeignKey(Company, on_delete=models.PROTECT)
-    code = models.CharField(max_length=50, unique=True)
+    code = models.CharField(max_length=50, unique=False)
     name = models.CharField(max_length=200) 
     description = models.CharField(max_length=200) 
     status = models.BooleanField(default=True)

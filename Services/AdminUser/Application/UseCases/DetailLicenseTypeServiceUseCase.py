@@ -1,6 +1,6 @@
 
 from abc import ABC, abstractmethod
-from ...Domain.Models.Detail_license_type_services  import DetailLicenseTypeServices
+from Domain.Models.Detail_license_type_services  import DetailLicenseTypeServices
 
 class DetailLicenseTypeServiceUseCase(ABC):
 

@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.Services import Services
+from Domain.Models.Services import Services
 
 class ServicesUseCase(ABC):
 

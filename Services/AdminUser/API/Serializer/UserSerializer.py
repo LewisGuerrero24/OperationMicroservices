@@ -1,5 +1,5 @@
 from rest_framework import serializers
-
+import uuid
 class UserSerializer(serializers.Serializer):
     id = serializers.UUIDField(required=False)
     spaces = serializers.UUIDField()
@@ -12,3 +12,10 @@ class UserSerializer(serializers.Serializer):
     status = serializers.BooleanField(default=True)
     creation_date = serializers.DateTimeField(required=False)
     update_date = serializers.DateTimeField(required=False)
+
+    # def validate_id(self, value):
+    #     try:
+    #         UUID(value, version=4)
+    #     except ValueError:
+    #         raise serializers.ValidationError("El valor de 'id' no es un UUID válido.")
+    #     return value

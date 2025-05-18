@@ -6,7 +6,7 @@ class SystemUser_Services(SystemUserUseCase):
     def __init__(self, systemUserRepository : SystemUserRepository):
         self._systemUserRepository = systemUserRepository
 
-    def create(self, SystemUsers_Data: dict) -> SystemUsers:
+    def create(self, SystemUsers_Data: SystemUsers) -> SystemUsers:
         return self._systemUserRepository.create(SystemUsers_Data)
 
     def get(self, SystemUsers_Id: int) -> SystemUsers:

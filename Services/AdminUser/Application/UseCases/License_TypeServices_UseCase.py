@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.License_type_services import LicenseTypeServices
+from Domain.Models.License_type_services import LicenseTypeServices
 
 class LicenseTypeServicesUseCase(ABC):
 

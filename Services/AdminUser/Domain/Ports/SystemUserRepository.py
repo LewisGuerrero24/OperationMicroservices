@@ -4,7 +4,7 @@ from ..Models.System_User import SystemUsers
 class SystemUserRepository(ABC):
 
     @abstractmethod
-    def create(self, data: dict) -> SystemUsers:
+    def create(self, data: SystemUsers) -> SystemUsers:
         pass
 
     @abstractmethod

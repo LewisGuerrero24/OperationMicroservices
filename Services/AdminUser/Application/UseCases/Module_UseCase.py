@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.Module import Module
+from Domain.Models.Module import Module
 
 class ModuleUseCase(ABC):
 

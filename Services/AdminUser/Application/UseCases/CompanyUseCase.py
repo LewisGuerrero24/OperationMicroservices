@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.Company import Company
+from Domain.Models.Company import Company
 
 class CompanyUseCase(ABC):
 

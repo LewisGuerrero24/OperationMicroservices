@@ -1,4 +1,4 @@
-from Domain.Models import Company as CompanyEntity
+from Domain.Models.Company import Company as CompanyEntity
 from Infrastructure.ModelsBD.Company import Company as CompanyModel
 
 class CompanyMapper:

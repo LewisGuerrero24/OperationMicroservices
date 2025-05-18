@@ -10,9 +10,9 @@ class PermissionUserMapper:
     @staticmethod
     def to_domain(model: DjangoPermissionUser) -> DomainPermissionUser:
         return DomainPermissionUser(
-            system_user=SystemUsersMapper.to_domain(model.system_user),
-            permission_level=PermissionLevelMapper.to_domain(model.permission_level),
-            permit=PermitMapper.to_domain(model.permit),
+            system_user=model.system_user,
+            permission_level=model.permission_level,
+            permit=model.permit,
             status=model.status,
             creation_date=model.creation_date,
             update_date=model.update_date
@@ -21,9 +21,9 @@ class PermissionUserMapper:
     @staticmethod
     def to_model(domain: DomainPermissionUser) -> DjangoPermissionUser:
         model = DjangoPermissionUser(
-            system_user=SystemUsersMapper.to_model(domain.system_user),
-            permission_level=PermissionLevelMapper.to_model(domain.permission_level),
-            permit=PermitMapper.to_model(domain.permit),
+            system_user=domain.system_user,
+            permission_level=domain.permission_level,
+            permit=domain.permit,
             status=domain.status
         )
         return model

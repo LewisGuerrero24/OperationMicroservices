@@ -1,4 +1,4 @@
-from Domain.Models import CompanyLicenseDetail
+from Domain.Models.Company_license_detail import CompanyLicenseDetail
 from Infrastructure.ModelsBD.Company_license_detail import Company_license_detail
 from Infrastructure.Mappers.CompanyMapper import CompanyMapper  # Este mapper debe existir
 

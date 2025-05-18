@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.Spaces import Spaces
+from Domain.Models.Spaces import Spaces
 
 class SpacesUseCase(ABC):
 

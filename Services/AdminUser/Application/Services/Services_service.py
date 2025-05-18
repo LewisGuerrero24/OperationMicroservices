@@ -7,7 +7,12 @@ class Services_Services(ServicesUseCase):
         self._serviceRepository = serviceRepository
 
     def create(self, Services_Data: dict) -> Services:
-        return self._serviceRepository.create(Services_Data)
+        model_data  = Services(
+            name=Services_Data['name'], 
+            codeService=Services_Data['codeService'], 
+            description=Services_Data['description'])
+
+        return self._serviceRepository.create(model_data.__dict__)
 
     def get(self, Services_Id: int) -> Services:
         return self._serviceRepository.get(Services_Id)

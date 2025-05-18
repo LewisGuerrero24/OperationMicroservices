@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard Personalizado</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white shadow-xl rounded-xl p-10 w-full max-w-md text-center">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">🎉 Bienvenido, {{ user.username }}</h2>
+
+        <div class="space-y-4">
+            <a target="_blank" href="/admin/" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition">
+                Ir al panel de administración
+            </a>
+
+            <a target="_blank" href="/admin/" class="block w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition">
+                Modulos Microservicios
+            </a>
+
+            <a href="{% url 'logout' %}" class="block w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-4 rounded-lg transition">
+                Cerrar sesión
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

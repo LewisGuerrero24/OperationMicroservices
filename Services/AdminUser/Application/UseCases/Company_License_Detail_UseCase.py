@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.Company_license_detail import CompanyLicenseDetail
+from Domain.Models.Company_license_detail import CompanyLicenseDetail
 
 class CompanyLicenseUseCase(ABC):
 

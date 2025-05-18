@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from Domain.Models import Permit as DomainPermit, Module, Spaces
+from Domain.Models.Permit import Permit as DomainPermit
 from Infrastructure.ModelsBD.Permit import Permit as DjangoPermit
 
 class PermitMapper:

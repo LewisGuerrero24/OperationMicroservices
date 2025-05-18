@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.User_groups import UserGroups
+from Domain.Models.User_groups import UserGroups
 
 class UserGroupsUseCase(ABC):
 

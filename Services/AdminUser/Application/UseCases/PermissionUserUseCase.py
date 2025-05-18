@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from ...Domain.Models.Permission_user import PermissionUser
+from Domain.Models.Permission_user import PermissionUser
 
 class PermissionUserUseCase(ABC):
 

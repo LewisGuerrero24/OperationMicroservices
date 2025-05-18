@@ -12,5 +12,6 @@ class Detail_license_type_services(models.Model):
     creation_date = models.DateTimeField(auto_now_add=True, null=True)
     update_date = models.DateTimeField(auto_now=True, null=True)
 
+    
     class Meta:
         db_table = 'Detail_license_type_services'

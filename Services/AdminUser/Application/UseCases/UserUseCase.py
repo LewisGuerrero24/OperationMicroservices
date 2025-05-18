@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from Domain.Models.System_User import SystemUsers
+from uuid import UUID
 
 class UserUseCase(ABC):
 
@@ -9,17 +10,17 @@ class UserUseCase(ABC):
         pass
 
     @abstractmethod
-    def get(self, SystemUsers_id: int) -> SystemUsers:
+    def get(self, SystemUsers_id: UUID) -> SystemUsers:
         """Obtiene un usuario por su ID"""
         pass
 
     @abstractmethod
-    def update(self, SystemUsers_id: int, SystemUsers_data: dict) -> SystemUsers:
+    def update(self, SystemUsers_id: UUID, SystemUsers_data: dict) -> SystemUsers:
         """Actualiza los datos de un usuario existente"""
         pass
 
     @abstractmethod
-    def delete(self, SystemUsers_id: int) -> bool:
+    def delete(self, SystemUsers_id: UUID) -> bool:
         """Elimina un usuario por su ID, devuelve True si fue exitoso"""
         pass
 

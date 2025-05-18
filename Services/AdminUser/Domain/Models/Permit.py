@@ -1,6 +1,7 @@
 from datetime import datetime
 from typing import Optional
-from Domain.Models import Module, Spaces
+from Domain.Models.Spaces import  Spaces
+from Domain.Models.Module import  Module
 
 
 class Permit:

@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from Domain.Models import Company
+from Domain.Models.Company import Company
 
 
 class CompanyLicenseDetail:

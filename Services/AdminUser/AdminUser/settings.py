@@ -53,6 +53,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'Infrastructure.middleware.RedirectAdminMiddleware',
 ]
 
 ROOT_URLCONF = 'AdminUser.urls'
@@ -60,7 +61,9 @@ ROOT_URLCONF = 'AdminUser.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            BASE_DIR / 'templates'
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -136,3 +139,5 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_COOKIE_SECURE = False
+# settings.py
+LOGIN_REDIRECT_URL = '/custom_dashboard/'  # Redirige a la vista personalizada después de login

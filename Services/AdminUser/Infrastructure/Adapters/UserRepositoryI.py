@@ -2,26 +2,27 @@ from Domain.Ports.userRepository import UserRepository
 from Domain.Models.System_User import SystemUsers
 from Infrastructure.ModelsBD.System_users import System_users
 from Infrastructure.Mappers.UserMapper import UserMapper
+from uuid import UUID
 import uuid
 
 class UserRepositoryImpl(UserRepository):
-    def create(self, user_data: dict) -> SystemUsers:
-        user_data['id'] = uuid.uuid4()
-        model = System_users.objects.create(**user_data)
+    def create(self, user_data: SystemUsers) -> SystemUsers:
+        
+        model = System_users.objects.create(**user_data.__dict__)
         return UserMapper.to_entity(model)
 
-    def get(self, user_id: uuid.UUID) -> SystemUsers:
+    def get(self, user_id: UUID) -> SystemUsers:
         model = System_users.objects.get(id=user_id)
         return UserMapper.to_entity(model)
 
-    def update(self, user_id: uuid.UUID, user_data: dict) -> SystemUsers:
+    def update(self, user_id: UUID, user_data: dict) -> SystemUsers:
         model = System_users.objects.get(id=user_id)
         for key, value in user_data.items():
             setattr(model, key, value)
         model.save()
         return UserMapper.to_entity(model)
 
-    def delete(self, user_id: uuid.UUID) -> bool:
+    def delete(self, user_id:UUID) -> bool:
         model = System_users.objects.get(id=user_id)
         model.delete()
         return True

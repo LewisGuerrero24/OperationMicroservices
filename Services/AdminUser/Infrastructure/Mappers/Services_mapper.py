@@ -8,7 +8,7 @@ class ServicesMapper:
     def to_domain(service: DjangoServices) -> DomainServices:
         return DomainServices(
             name=service.name,
-            code_service=service.codeService,
+            codeService=service.codeService,
             description=service.description,
             status=service.status,
             creation_date=service.creation_date,
@@ -19,7 +19,7 @@ class ServicesMapper:
     def to_django(service: DomainServices) -> DjangoServices:
         return DjangoServices(
             name=service.name,
-            codeService=service.code_service,
+            codeService=service.codeService,
             description=service.description,
             status=service.status,
             creation_date=service.creation_date,

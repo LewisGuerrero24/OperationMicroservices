@@ -1,5 +1,6 @@
 from django.contrib import admin
 from .ImportsModelsDB import *
+from Domain.Models.User_Kafka import User_Kafka
 
 
 admin.site.register(System_users)
@@ -17,5 +18,6 @@ admin.site.register(Permit)
 admin.site.register(Services)
 admin.site.register(Spaces)
 admin.site.register(User_groups)
+admin.site.register(User_Kafka)
 
 

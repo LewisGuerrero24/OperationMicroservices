@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 from ..Models.System_User import SystemUsers
+from uuid import UUID
 
 class UserRepository(ABC):
 
@@ -9,17 +10,17 @@ class UserRepository(ABC):
         pass
 
     @abstractmethod
-    def get(self, user_id: int) -> SystemUsers:
+    def get(self, user_id: UUID) -> SystemUsers:
         """Obtiene un usuario por su ID"""
         pass
 
     @abstractmethod
-    def update(self, user_id: int, user_data: dict) ->SystemUsers:
+    def update(self, user_id: UUID, user_data: dict) ->SystemUsers:
         """Actualiza los datos de un usuario existente"""
         pass
 
     @abstractmethod
-    def delete(self, user_id: int) -> bool:
+    def delete(self, user_id: UUID) -> bool:
         """Elimina un usuario por su ID, devuelve True si fue exitoso"""
         pass
 
