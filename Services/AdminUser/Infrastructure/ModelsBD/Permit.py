@@ -1,6 +1,7 @@
 from django.db import models
 from .Spaces import Spaces
 from .Module import Module
+from django.utils import timezone
 
 class Permit(models.Model):
     spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)
@@ -11,8 +12,8 @@ class Permit(models.Model):
     system_defined = models.BooleanField(default=False)   # True si lo define el sistema y no debe ser modificado
     logical_route = models.CharField(max_length=200, null=True)
     status = models.BooleanField(default=True)
-    creation_date = models.DateTimeField(auto_now_add=True, null=True)
-    update_date = models.DateTimeField(auto_now=True, null=True)
+    creation_date = models.DateTimeField(default=timezone.now)
+    update_date = models.DateTimeField(null=True, blank=True)
 
     class Meta:
         db_table = 'Permit'

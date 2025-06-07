@@ -1357,26 +1357,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MAICOL\\.nuget\\packages\\": {}
+    "/home/maicolcubides/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MAICOL\\Proyect-Microservices-System-Control-and-Operations-Process-Event\\ApiGateway\\ApiGateway.csproj",
+      "projectUniqueName": "/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/ApiGateway/ApiGateway.csproj",
       "projectName": "ApiGateway",
-      "projectPath": "C:\\Users\\MAICOL\\Proyect-Microservices-System-Control-and-Operations-Process-Event\\ApiGateway\\ApiGateway.csproj",
-      "packagesPath": "C:\\Users\\MAICOL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MAICOL\\Proyect-Microservices-System-Control-and-Operations-Process-Event\\ApiGateway\\obj\\",
+      "projectPath": "/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/ApiGateway/ApiGateway.csproj",
+      "packagesPath": "/home/maicolcubides/.nuget/packages/",
+      "outputPath": "/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/ApiGateway/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MAICOL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/maicolcubides/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1389,11 +1387,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1448,7 +1441,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

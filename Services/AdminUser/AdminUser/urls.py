@@ -15,17 +15,37 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, re_path
 #from API.views import CreateUserView
 from django.http import HttpResponse
-from API.views import TestRateLimitView
+from API.views import CreateCompanyView
+from drf_yasg import openapi 
+from drf_yasg.views import get_schema_view
+from rest_framework import permissions
 
 def home_view(request):
     return HttpResponse("Página de inicio")
 
+schema_view = get_schema_view(
+   openapi.Info(
+      title="Mi API",
+      default_version='v1',
+      description="Documentación de la API con Swagger",
+   ),
+   public=True,
+   permission_classes=(permissions.AllowAny,),
+)
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     #path('usuarios/', CreateUserView.as_view(), name='crear_usuario'),
-    path('test-rate-limit/', TestRateLimitView.as_view(), name='test_rate_limit'),
+    #path('test-rate-limit/', TestRateLimitView.as_view(), name='test_rate_limit'),
+    path('company/create/', CreateCompanyView.as_view(), name='create_company'),
     path('', home_view),
+    re_path(r'^swagger(?P<format>\.json|\.yaml)$',
+            schema_view.without_ui(cache_timeout=0), name='schema-json'),
+    path('swagger/', schema_view.with_ui('swagger',
+         cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc',
+         cache_timeout=0), name='schema-redoc'),
 ]

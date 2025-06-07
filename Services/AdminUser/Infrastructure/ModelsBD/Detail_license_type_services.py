@@ -1,6 +1,7 @@
 from django.db import models
 from .License_type_services import License_type_services
 from .Company_license_detail import Company_license_detail
+from django.utils import timezone
 
 class Detail_license_type_services(models.Model):
     license_type_services = models.ForeignKey(License_type_services, on_delete=models.PROTECT)
@@ -9,8 +10,8 @@ class Detail_license_type_services(models.Model):
     used_limit = models.PositiveIntegerField(default=0)
     unit = models.CharField(max_length=50, default='registros')  # Unidad de medida (registros, GB, usuarios, etc.)
     status = models.BooleanField(default=True)
-    creation_date = models.DateTimeField(auto_now_add=True, null=True)
-    update_date = models.DateTimeField(auto_now=True, null=True)
+    creation_date = models.DateTimeField(default=timezone.now)
+    update_date = models.DateTimeField(null=True, blank=True)
 
     class Meta:
         db_table = 'Detail_license_type_services'

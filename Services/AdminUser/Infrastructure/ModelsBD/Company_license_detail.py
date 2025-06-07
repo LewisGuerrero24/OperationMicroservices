@@ -1,3 +1,4 @@
+from django.utils import timezone
 from django.db import models
 from .Company import Company
 
@@ -14,8 +15,8 @@ class Company_license_detail(models.Model):
     user_limit = models.PositiveIntegerField(default=0)
 
     status = models.BooleanField(default=True)
-    creation_date = models.DateTimeField(auto_now_add=True, null=True)
-    update_date = models.DateTimeField(auto_now=True, null=True)
+    creation_date = models.DateTimeField(default=timezone.now)
+    update_date = models.DateTimeField(null=True, blank=True)
 
     class Meta:
         db_table = 'Company_license_detail'
