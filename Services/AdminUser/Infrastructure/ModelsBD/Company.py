@@ -19,6 +19,7 @@ class Company(models.Model):
     creation_date = models.DateTimeField(default=timezone.now)
     update_date = models.DateTimeField(null=True, blank=True)
 
+
     def __str__(self):
         return self.name
 

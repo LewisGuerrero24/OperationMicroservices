@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from Domain.Models import Spaces
+from Domain.Models.Spaces import Spaces
 
 
 class Groups:

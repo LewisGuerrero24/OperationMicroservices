@@ -1,6 +1,4 @@
-#!/bin/sh
-'''exec' /home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/Services/AdminUser/venv/bin/python3 "$0" "$@"
-' '''
+#!/home/lewisguerrero/Documentos/PROYECTOS/SystemOPeration/Services/AdminUser/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

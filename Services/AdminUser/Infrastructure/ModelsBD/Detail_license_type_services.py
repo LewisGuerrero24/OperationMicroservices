@@ -13,5 +13,6 @@ class Detail_license_type_services(models.Model):
     creation_date = models.DateTimeField(default=timezone.now)
     update_date = models.DateTimeField(null=True, blank=True)
 
+    
     class Meta:
         db_table = 'Detail_license_type_services'

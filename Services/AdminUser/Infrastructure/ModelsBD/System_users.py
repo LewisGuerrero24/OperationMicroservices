@@ -8,7 +8,7 @@ class System_users(models.Model):
     spaces = models.ForeignKey(Spaces, on_delete=models.PROTECT)
     full_name = models.CharField(max_length=200)
     username = models.CharField(max_length=100, unique=True)
-    email = models.CharField(max_length=100, unique=True)
+    email = models.CharField(max_length=100,unique=True)
     password = models.CharField(max_length=256)
     is_superuser = models.BooleanField(default=False)
     last_login = models.DateTimeField(null=True)

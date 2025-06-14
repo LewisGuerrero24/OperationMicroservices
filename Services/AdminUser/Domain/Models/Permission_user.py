@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from Domain.Models import Permit
+from Domain.Models.Permit import Permit
 from Domain.Models.Permission_level import PermissionLevel
 from Domain.Models.System_User import SystemUsers
 

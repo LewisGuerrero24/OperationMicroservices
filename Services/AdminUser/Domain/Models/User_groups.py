@@ -1,6 +1,6 @@
 from datetime import datetime
 from typing import Optional
-from Domain.Models import Groups
+from Domain.Models.Groups import Groups
 from Domain.Models.System_User import SystemUsers
 
 
