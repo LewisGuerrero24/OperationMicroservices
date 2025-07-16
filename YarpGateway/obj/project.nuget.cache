@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rQuYIqnM21x+py9OkGNA4zsSLQPZd6LFUt5Av8hPrGLQ6HE/oegQq5USK/4lD/BHCdg0fQdcSmkFeQFj9zna3Q==",
+  "success": true,
+  "projectFilePath": "/home/maicolcubides/Documentos/System-Control-and-Operations-Process-Events/System-Control-and-Operations-Process-Events/YarpGateway/YarpGateway.csproj",
+  "expectedPackageFiles": [
+    "/home/maicolcubides/.nuget/packages/system.io.hashing/8.0.0/system.io.hashing.8.0.0.nupkg.sha512",
+    "/home/maicolcubides/.nuget/packages/yarp.reverseproxy/2.3.0/yarp.reverseproxy.2.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

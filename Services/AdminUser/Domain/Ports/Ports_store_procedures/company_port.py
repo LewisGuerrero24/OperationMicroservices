@@ -6,3 +6,7 @@ class CompanyRepositoryPort(ABC):
     @abstractmethod
     def create_company(self, company: Company) -> GenericResponse[int]:
         pass
+
+    @abstractmethod
+    def delete_company(self, company_id: int) -> GenericResponse[bool]:
+        pass

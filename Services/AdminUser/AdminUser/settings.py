@@ -47,7 +47,8 @@ INSTALLED_APPS = [
     'Domain', 
     'rest_framework',
     'API',
-    'drf_yasg'
+    'drf_yasg',
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
@@ -62,7 +63,16 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'Infrastructure.middleware.RedirectAdminMiddleware',
+    'corsheaders.middleware.CorsMiddleware'
 ]
+
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5178",  # IP o dominio del gateway Ocelot
+]
+
+# O permite todo (solo en desarrollo)
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'AdminUser.urls'
 

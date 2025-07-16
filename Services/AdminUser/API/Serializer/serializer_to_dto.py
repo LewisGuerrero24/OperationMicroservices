@@ -1,7 +1,7 @@
+# Sin restricción de pydantic
 from typing import Type, TypeVar
-from pydantic import BaseModel
 
-T = TypeVar('T', bound=BaseModel)
+T = TypeVar('T')
 
 def serializer_to_dto(serializer, dto_class: Type[T]) -> T:
     data = serializer.validated_data

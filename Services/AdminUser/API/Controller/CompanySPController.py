@@ -20,3 +20,10 @@ class CompanyController:
             else:
                 return Response({"error": response.message}, status=status.HTTP_400_BAD_REQUEST)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    
+    def delete_company(self, request, id):
+        response = self.use_case.delete_company(id)
+        if response.is_correct:
+            return Response({"message": response.message, "es_correcto": response.is_correct, "Valor": response.value}, status=status.HTTP_200_OK)
+        else:
+            return Response({"error": response.message}, status=status.HTTP_400_BAD_REQUEST)

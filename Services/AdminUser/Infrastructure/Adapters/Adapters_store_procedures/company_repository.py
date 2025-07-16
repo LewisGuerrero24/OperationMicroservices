@@ -41,3 +41,25 @@ class CompanyRepository(CompanyRepositoryPort):
                 return GenericResponse(value=response, message=mensaje, is_correct=True)
         except Exception as e:
             return GenericResponse(message=str(e), is_correct=False, value=None)
+    
+
+    
+    def delete_company(self, company_id: int) -> GenericResponse[bool]:
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("""
+                DECLARE @message NVARCHAR(500), @response BIT;
+                EXEC sp_AdminUser_Company_D
+                    @id=%s, @message=@message OUTPUT, @response=@response OUTPUT;
+                SELECT @message as message, @response as response;
+                """, [
+                    company_id
+                ])
+                result = cursor.fetchone()
+                mensaje = result[0]
+                response = result[1]
+                if response == 0:
+                    return GenericResponse(message=mensaje, is_correct=False, value=None)
+                return GenericResponse(value=response, message=mensaje, is_correct=True)
+        except Exception as e:
+            return GenericResponse(message=str(e), is_correct=False, value=None)

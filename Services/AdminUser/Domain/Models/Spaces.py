@@ -4,10 +4,11 @@ from Domain.Models import Company
 
 class Spaces:
     def __init__(
-        self, company: Company, code: str, name: str, description: str,
+        self, id: int, company: Company, code: str, name: str, description: str,
         status: bool = True, creation_date: Optional[datetime] = None,
         update_date: Optional[datetime] = None
     ):
+        self.id = id
         self.company = company
         self.code = code
         self.name = name

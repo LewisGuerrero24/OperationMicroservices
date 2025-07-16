@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, re_path
 from django.http import HttpResponse
-from API.views import CreateCompanyView
+from API.views import CreateCompanyView, SystemUserView
 from drf_yasg import openapi 
 from drf_yasg.views import get_schema_view
 from rest_framework import permissions
@@ -29,7 +29,6 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.views import LogoutView
-
 
 def home_view(request):
     return HttpResponseRedirect('/swagger/')
@@ -46,15 +45,24 @@ schema_view = get_schema_view(
    ),
    public=True,
    permission_classes=(permissions.AllowAny,),
-)
+)   
 urlpatterns = [
     path('custom_dashboard/', custom_admin_dashboard, name=''),
     path('logout/', LogoutView.as_view(next_page='/custom_dashboard/'), name='logout'),
     path('admin/', admin.site.urls),
     #path('test-rate-limit/', TestRateLimitView.as_view(), name='test_rate_limit'),
+
+
+    # With Store procedures
     path('company/create/', CreateCompanyView.as_view(), name='create_company'),
+    path('company/delete/<int:id>/', CreateCompanyView.as_view(), name='delete_company'),
+    path('systemuser/login/', SystemUserView.as_view(), name='system_user_login'),
+
+
     path('', home_view),
     path('users/', UserListController.as_view(), name='user_list'),
+
+    
     path('users/<uuid:user_id>/', UserDetailController.as_view(), name='user_detail'),
     path('space/', SpacesListController.as_view(), name='space_list'),
     path('space/<int:space_id>/', SpacesDetailController.as_view(), name='space_detail'), 

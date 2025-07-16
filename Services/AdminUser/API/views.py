@@ -2,6 +2,9 @@ from rest_framework.views import APIView
 from API.Controller.CompanySPController import CompanyController
 from API.Serializer.CompanySerializerSP import CompanySerializerSP
 from drf_yasg.utils import swagger_auto_schema
+from drf_yasg import openapi
+from API.Serializer.serializer_store_procedures.System_user_serializer import SystemUserSerializerLogin
+from API.Controller.StoreProcedureController.SystemUserController import SystemUserController
 
 class CreateCompanyView(APIView):
     
@@ -9,6 +12,19 @@ class CreateCompanyView(APIView):
     def post(self, request):
         controller = CompanyController()
         return controller.create_company(request)
+    
+    @swagger_auto_schema(manual_parameters=[
+        openapi.Parameter('id', openapi.IN_PATH, description="ID de la empresa", type=openapi.TYPE_INTEGER)
+    ])
+    def delete(self, request, id):
+        controller = CompanyController()
+        return controller.delete_company(request, id)
+
+class SystemUserView(APIView):
+    @swagger_auto_schema(request_body=SystemUserSerializerLogin)
+    def post(self, request):
+        controller = SystemUserController()
+        return controller.login(request)
 
 from .Controller.UserController import UserListController, UserDetailController
 from .Controller.SpacesController import SpacesListController, SpacesDetailController

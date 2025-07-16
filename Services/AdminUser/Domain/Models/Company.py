@@ -4,12 +4,13 @@ from uuid import UUID
 
 class Company:
     def __init__(
-        self, name: str, legal_name: Optional[str], nit: str, country: str, location: str,
+        self, id: int, name: str, legal_name: Optional[str], nit: str, country: str, location: str,
         phone: int, email: str, postal_code: Optional[str], website: Optional[str],
         contact_name: Optional[str], contact_phone: Optional[str], contact_email: Optional[str],
         notes: Optional[str], status: bool = True, creation_date: Optional[datetime] = None,
         update_date: Optional[datetime] = None
     ):
+        self.id = id
         self.name = name
         self.legal_name = legal_name
         self.nit = nit

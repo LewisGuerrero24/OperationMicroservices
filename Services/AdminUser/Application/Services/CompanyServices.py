@@ -15,3 +15,6 @@ class CreateCompanyUseCase(CompanyUseCasePort):
     def create_company(self, company_dto: CompanyDTO) -> GenericResponse[int]:
         company: Company = dto_to_model(company_dto, Company)
         return self.company_repository.create_company(company)
+    
+    def delete_company(self, company_id: int) -> GenericResponse[bool]:
+        return self.company_repository.delete_company(company_id)
